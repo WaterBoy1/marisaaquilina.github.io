@@ -1,0 +1,63 @@
+body {
+    background-color: black;   
+}
+
+#instrument {
+    height: 116px;
+    width: 812px;
+    padding-right: 10px;
+    padding-top: 50px;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0; 
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+    float:left;
+}
+
+#airhorn {
+    background-color: #3e181b;
+    border: 3px solid #db1d2d;
+}
+
+#wow {
+    background-color: #422018;
+    border: 3px solid #f0421c;
+}
+
+#sad {
+    background-color: #45391b;
+    border: 3px solid #fec02d;
+}
+
+#airhorn:hover {
+    background-color:#661920;
+    cursor: pointer;
+}
+
+#wow:hover {
+    background-color:#6e2819;
+    cursor: pointer;
+}
+
+#sad:hover {
+    background-color:#735b20;
+    cursor: pointer;
+}
+
+#airhorn:active {
+    background-color:#db1d2d;   
+}
+
+#wow:active {
+    background-color:#f0421c;   
+}
+
+#sad:active {
+    background-color:#fec02d;   
+}
