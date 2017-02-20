@@ -1,0 +1,76 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Karla|Overpass|Work+Sans:100,200,300,400,500,600,700,800|Inconsolata');
+
+body {
+  margin: 0px;
+   font-family: "Work Sans", monospace;
+     background: #eee;
+  background-size: 100vw 100vh;
+}
+
+h1, p {
+    margin: 0;
+}
+
+header {
+  height: 100vh;
+ background-image: url('../img/header.png');
+     background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    text-align: center;
+    margin: 0 auto;
+}
+
+section {
+    margin-top: -10vh;
+}
+
+.card {
+    padding: 28px;
+  background: #fff;
+  border-radius: 4px;
+  margin: 10px 15vw;
+  box-shadow: 1.5px 1.5px 3px rgba(0,0,0,0.04), 0 1px 2px rgba(0,0,0,0.04);
+}
+
+.card img {
+    border-radius: 2px;
+}
+.card__header {
+    height: 10vh;
+}
+
+.card__header h2 {
+    display: inline-block;
+}
+
+.card__header img {
+    height: 100%;
+    border-radius: 100%;
+}
+
+.card p {
+    margin: 0px 0px 24px 0px;
+}
+
+h2 {
+    margin: 12px 0px;
+    font-family: 'Work Sans', monospace;
+    color: #222;
+    font-weight: 500 !important;
+}
+
+.label {
+    background: #eee;
+    padding: 4.2px 8px;
+    border-radius: 2px;
+    color: #777;
+}
+
+footer {
+    background: #fff;
+    text-align: center;
+}
